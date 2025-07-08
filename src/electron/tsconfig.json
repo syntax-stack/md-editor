@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // require strict types (types cannot be null)
+    "strict": true,
+    // tell TypeScript to generate ESModules Syntax (import instead of require)
+    "target": "ESNext",
+    // tell TypeScript to this project will be ESModules
+    "module": "NodeNext",
+    // define where to put the generated JS files
+    "outDir": "../../dist-electron",
+    // ignore errors from dependencies
+    "skipLibCheck": true
+  }
+}
