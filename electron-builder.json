@@ -1,6 +1,7 @@
 {
   "appId": "com.a-caglayan.md-editor",
   "files": ["dist-electron", "dist-react"],
+  "extraResources": ["dist-electron/preload.cjs"],
   "icon": "./app-icon.png",
   "mac": {
     "target": "dmg"
@@ -10,6 +11,14 @@
     "category": "Utility"
   },
   "win": {
-    "target": ["portable", "msi"]
+    "target": ["portable", "nsis"]
+  },
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "MD Editor"
   }
 }
