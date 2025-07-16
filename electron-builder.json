@@ -1,5 +1,5 @@
 {
-  "appId": "com.a-caglayan.md-editor",
+  "appId": "com.a-caglayan.task-master",
   "files": ["dist-electron", "dist-react"],
   "extraResources": ["dist-electron/preload.cjs"],
   "icon": "./app-icon.png",
